@@ -106,7 +106,7 @@ const cn = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return inputHints + "，/ 触发补全，: 触发命令\n直接发送为ChatGpt模式，以 /mj 开头为Midjourney模式（提示词请输入英文）";
+      return inputHints + "，/ 触发补全，: 触发命令\n直接发送为ChatGpt模式\n以 /mj 开头为Midjourney模式（提示词请输入英文）";
     },
     Send: "发送",
     Config: {
